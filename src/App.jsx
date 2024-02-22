@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar';
 import NewsBoard from './Components/NewsBoard';
 
 const App = () => {
-  const [category,setCategory] = useState("general");
+  const [category,setCategory] = useState();
   return(
     <div>
       <Navbar setCategory={setCategory}/>
